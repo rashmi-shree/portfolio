@@ -94,19 +94,19 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/swiggy1.jpg" alt="">
+                  <img src="assets/img/y1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/swiggy2.jpg" alt="">
+                  <img src="assets/img/y2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/swiggy3.jpg" alt="">
+                  <img src="assets/img/y3.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/swiggy4.jpg" alt="">
+                  <img src="assets/img/y4.jpg" alt="">
                 </div>
 
               </div>
@@ -118,30 +118,31 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Front End Project</li>
-                <li><strong>Client</strong>: Swiggy app dupe</li>
+                <li><strong>Category</strong>: Front End Youtube Project</li>
+                <li><strong>Client</strong>: Youtube dupe</li>
                 <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
-                <li><strong>Project URL</strong>: <a href="http://51.20.54.15:3000/">website link</a></li>
+                <li><strong>Project URL</strong>: <a href="http://51.20.1.215:3000/">website link</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Details of the project</h2>
               <p>
-                This project was built to focus on api calls and redux.I have used swiggy's live apis to make a duplicate
-                of swiggy application.
+                This project was built to focus on debouncing and API Polling calls, redux.
                 <br><br>
-                <h5>Overcoming Challenges: My Journey to Success:- </h5>
-              <ol>
-              <li> while create react app the following 2 are not working:-
+                <p>
+                  <h5>Key Takeaways from the Project Experience :- </h5>
                 <ol>
-                <li>npx create-react-app my-app</li>
-                <li>npm init react-app my-app</li>
-                    <li>so used yarn :-
-                      yarn create react-app my-app</li>
-                  </ol>
-                  </li>
-                <li> was not able to make fetch to 3rd party api of swiggy so used cors plugin extension on chrome</li>
-              </ol>  
+                <li> up routing</li>
+                <li>import createBrowserRouter , RouterProvider from 'react-router-dom';</li>
+            <li>set up redux store with slice</li>
+          <li>never use string always put them in constants</li>
+        <li>creating custom hooks</li>
+        <li>search feature included debouncing</li>
+        <li>multi language</li>
+        <li>responsive</li>
+      </ol>
+                <br><br>
+
                 <h5>Technologies/Features/Extensions used:- </h5>
                 <ol>
                   <li>yarn create react-app my-app </li>
@@ -150,18 +151,19 @@
                 </ol>
                 
               
-             <h5> Hooks and concepts used in Reactjs:-</h5>
+             <h5>Overcoming Challenges: My Journey to Success:-</h5>
              <ol>
-              <li>useState</li>
-                <li>useEffect</li>
-                <li>useParams</li>
-                <li>React-router-dom</li>
-                <li>.map()</li>
-                <li>.filter()</li>
-                <li>Chunking/ code splitting/ dynamic bundling/ lazy loading/ on demand loading</li>
-                <li>Redux [@reduxjs/toolkit and react-redux]</li>
-                <li>useSelector</li>
-                <li>useDispatch</li>
+              <li>Used debouncing and caching in search bar</li>
+              <li> Live chat :- challenges
+            --> get data live
+              --> update the UI </li>
+              <li> Overcoming the challenges:-
+            --> Data (live) :- 
+                   (1st choice) Web sockets - is a 2 way connection. It’s a handshake between  a server and a UI. Once the handshake is made between a server and a UI we can quickly send data from either sides. Ex:- trading apps, whatsapp
+              (2nd choice) Long/API polling :- The data is unidirectional. Meaning UI will keep pulling data from the server in an interval. Ex:- Gmail , cricbuzz, 
+              
+            Therefore used API Polling.
+          </li>
             </ol>
               </p>
             </div>
